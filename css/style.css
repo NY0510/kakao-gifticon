@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+
+.fish {
+	width: 60%;
+}
+
+.navbar-title {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.navbar {
+	background-color: #1d1e22;
+	font-family: "Montserrat";
+}
+
+/* 서브타이틀 */
+.subtitle {
+	text-align: center;
+}
+.subtitle h1 {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 20px 0px 10px;
+}
+.subtitle hr {
+	width: 80px;
+	border: 1px solid #222;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.subtitle h2 {
+	font-size: 15px;
+	padding: 20px 0px;
+}
+
+/* 섹션 */
+.section ul li {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	padding: 0.5%;
+}
+.section ul li a img {
+	border-radius: 5%;
+}
+
+/* 미디어쿼리 */
+@media (max-width: 1290px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+	.section ul li {
+		width: 50%;
+	}
+
+	.square a {
+		width: 48%;
+		margin: 1%;
+		padding-top: 36%;
+	}
+	.square a:hover img {
+		filter: none;
+	}
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
